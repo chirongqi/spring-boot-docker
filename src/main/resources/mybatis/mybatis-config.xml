@@ -25,15 +25,15 @@
 		<setting name="mapUnderscoreToCamelCase" value="true"/>
 	</settings>
 	
-	<typeHandlers>
-		<typeHandler javaType="Boolean" jdbcType="CHAR" handler="com.chirq.study.business.dao.BooleanTypeHandler" />
-	</typeHandlers>
-	<plugins>
-		<plugin
-			interceptor="com.github.miemiedev.mybatis.paginator.OffsetLimitInterceptor">
-			<property name="dialectClass"
-				value="com.github.miemiedev.mybatis.paginator.dialect.MySQLDialect" />
-		</plugin>
-	</plugins>
+<!-- 	<typeHandlers> -->
+<!-- 		<typeHandler javaType="Boolean" jdbcType="CHAR" handler="com.chirq.study.business.dao.BooleanTypeHandler" /> -->
+<!-- 	</typeHandlers> -->
+<!-- 	<plugins> -->
+<!-- 		<plugin -->
+<!-- 			interceptor="com.github.miemiedev.mybatis.paginator.OffsetLimitInterceptor"> -->
+<!-- 			<property name="dialectClass" -->
+<!-- 				value="com.github.miemiedev.mybatis.paginator.dialect.MySQLDialect" /> -->
+<!-- 		</plugin> -->
+<!-- 	</plugins> -->
 
 </configuration>
